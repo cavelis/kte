@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{ac6bb17b-edac-4eb3-8356-6fb7239fa83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{01109874-a12e-4186-9cbe-d5879619873b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows - Other">
+      <UniqueIdentifier>{8f847163-512f-4f27-b36f-a9e8447a3736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows - Dialog">
+      <UniqueIdentifier>{fd5a559d-e826-4f14-b6dc-ab3552844837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectShow">
+      <UniqueIdentifier>{99d577e2-824f-41c9-b0e6-81e8d1e64f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows - Child">
+      <UniqueIdentifier>{67d45aa6-a71c-4a13-9a67-65a101a0ad9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows - Bar">
+      <UniqueIdentifier>{02774fea-868e-41fb-83cf-f7607109be73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows - Child\Property">
+      <UniqueIdentifier>{57d4e5a6-0982-4ca2-93aa-8c680ad3b792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows - Child\Monitor">
+      <UniqueIdentifier>{43eeb195-d07b-480c-94e1-31818648795f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows - Child\Preview">
+      <UniqueIdentifier>{83d26d3d-773b-4db1-b68d-42bcc1d9f7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows - Child\Property\Dialog">
+      <UniqueIdentifier>{82f98b94-80ca-4197-a07c-9d72ff3d08d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows - Child\Volume">
+      <UniqueIdentifier>{36b56684-b828-472d-9a34-6cde5245e530}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.txt" />
+    <None Include="res\toolbar.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\toolbar_small.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\red_on.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\blue_off.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\blue_on.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\KTE.h" />
+    <ClInclude Include="src\MainFrm.h" />
+    <ClInclude Include="src\DirectShow.h">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DirectShowAccess.h">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DirectShowASFWriter.h">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DirectShowAudioVolume.h">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DirectShowEncoder.h">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DirectShowEtc.h">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qedit.h">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AboutDialog.h">
+      <Filter>Windows - Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IniFile.h">
+      <Filter>Windows - Other</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputPropertyConfigDialog.h">
+      <Filter>Windows - Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MySplitterWnd.h">
+      <Filter>Windows - Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyStatusBar.h">
+      <Filter>Windows - Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyTaskTray.h">
+      <Filter>Windows - Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyToolBar.h">
+      <Filter>Windows - Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Profile.h">
+      <Filter>Windows - Other</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Setting.h">
+      <Filter>Windows - Other</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PerformanceSettingDialog.h">
+      <Filter>Windows - Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PluginDialog.h">
+      <Filter>Windows - Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SettingDialog.h">
+      <Filter>Windows - Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MoniterGraphDialog.h">
+      <Filter>Windows - Child\Monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MonitorEventLogDialog.h">
+      <Filter>Windows - Child\Monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MonitorFormView.h">
+      <Filter>Windows - Child\Monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MonitorPullDialog.h">
+      <Filter>Windows - Child\Monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MonitorStatisticsDialog.h">
+      <Filter>Windows - Child\Monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyChildWnd.h">
+      <Filter>Windows - Child\Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PreviewWnd.h">
+      <Filter>Windows - Child\Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EncodePropertyDialog.h">
+      <Filter>Windows - Child\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputPropertyDialog.h">
+      <Filter>Windows - Child\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MetadataPropertyDialog.h">
+      <Filter>Windows - Child\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OutputPropertyDialog.h">
+      <Filter>Windows - Child\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PropertyFormView.h">
+      <Filter>Windows - Child\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SizeDialog.h">
+      <Filter>Windows - Child\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OutputBaseDialog.h">
+      <Filter>Windows - Child\Property\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OutputFileDialog.h">
+      <Filter>Windows - Child\Property\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OutputPullDialog.h">
+      <Filter>Windows - Child\Property\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OutputPushDialog.h">
+      <Filter>Windows - Child\Property\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VolumeWnd.h">
+      <Filter>Windows - Child\Volume</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\targetver.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\KTE.cpp" />
+    <ClCompile Include="src\MainFrm.cpp" />
+    <ClCompile Include="src\DirectShow.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectShowAccess.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectShowASFWriter.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectShowAudioVolume.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectShowEncoder.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectShowEtc.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AboutDialog.cpp">
+      <Filter>Windows - Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IniFile.cpp">
+      <Filter>Windows - Other</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputPropertyConfigDialog.cpp">
+      <Filter>Windows - Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MySplitterWnd.cpp">
+      <Filter>Windows - Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyStatusBar.cpp">
+      <Filter>Windows - Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyTaskTray.cpp">
+      <Filter>Windows - Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyToolBar.cpp">
+      <Filter>Windows - Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Profile.cpp">
+      <Filter>Windows - Other</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Setting.cpp">
+      <Filter>Windows - Other</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PerformanceSettingDialog.cpp">
+      <Filter>Windows - Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PluginDialog.cpp">
+      <Filter>Windows - Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SettingDialog.cpp">
+      <Filter>Windows - Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MoniterGraphDialog.cpp">
+      <Filter>Windows - Child\Monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MonitorEventLogDialog.cpp">
+      <Filter>Windows - Child\Monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MonitorFormView.cpp">
+      <Filter>Windows - Child\Monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MonitorPullDialog.cpp">
+      <Filter>Windows - Child\Monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MonitorStatisticsDialog.cpp">
+      <Filter>Windows - Child\Monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyChildWnd.cpp">
+      <Filter>Windows - Child\Preview</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PreviewWnd.cpp">
+      <Filter>Windows - Child\Preview</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EncodePropertyDialog.cpp">
+      <Filter>Windows - Child\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputPropertyDialog.cpp">
+      <Filter>Windows - Child\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MetadataPropertyDialog.cpp">
+      <Filter>Windows - Child\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OutputPropertyDialog.cpp">
+      <Filter>Windows - Child\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PropertyFormView.cpp">
+      <Filter>Windows - Child\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SizeDialog.cpp">
+      <Filter>Windows - Child\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OutputBaseDialog.cpp">
+      <Filter>Windows - Child\Property\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OutputFileDialog.cpp">
+      <Filter>Windows - Child\Property\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OutputPullDialog.cpp">
+      <Filter>Windows - Child\Property\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OutputPushDialog.cpp">
+      <Filter>Windows - Child\Property\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VolumeWnd.cpp">
+      <Filter>Windows - Child\Volume</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>stdafx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\KTE.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
